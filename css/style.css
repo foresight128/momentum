@@ -1,0 +1,118 @@
+@import "reset.css";
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    color: white;
+}
+.hidden{
+    display: none;
+}
+
+/* === */
+img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0%;
+    z-index: -2;
+}
+
+#clock{
+    margin-top: 12%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 150px;
+    text-shadow: 0 5px 10px rgba(50, 50, 90, 0.7);    
+}
+
+.loginWrap{
+    margin: 25px 0;
+}
+
+#login-form label{
+    display: block;
+    margin: 10px 0;
+    text-shadow: 0 5px 10px rgba(50, 50, 90, 0.7);
+}
+
+#login-form input{
+    font-size: 20px;
+    border: transparent;
+    border-bottom:1px solid white ;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    text-shadow: 0 5px 10px rgba(50, 50, 90, 0.7);
+}
+
+#login-form input:last-child{
+    display: none;
+}
+
+.loginWrap #greeting{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.todoWrap{
+    margin: 0 auto;
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: #3d3d3d;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+}
+.todoWrap input{
+    border: transparent;
+    border-bottom:1px solid black;
+    background-color: transparent;
+    outline: none;
+    width: 230px;
+    margin: auto;
+    text-align: center;
+    padding: 5px 0;
+}
+.todoWrap #todo-list{
+    margin: 5px 70px;
+}
+.todoWrap #todo-list li{
+    text-align: left;
+    list-style: disc;
+    font-size: 12px;
+}
+
+.todoWrap #todo-list button{
+    border:none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+#quote{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 1.7;
+    font-weight: 300;
+    font-size: 14px;
+    font-style: italic;
+    text-shadow: 0 5px 10px rgba(50, 50, 90, 0.7);
+}
+
+#weather{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.2;
+    text-shadow: 0 2px 5px rgba(50, 50, 90, 0.3);
+}
