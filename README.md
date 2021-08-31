@@ -1,4 +1,17 @@
 # momentum
+
+url - https://foresight128.github.io/momentum/
+
+Date - 2021/08/26
+
+Tool & Skill
+- html5
+- css3
+- javascript
+- VisualStudioCode
+
+* * *
+
 Create Momentum with vanillaJS
 
 - clock
