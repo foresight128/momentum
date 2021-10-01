@@ -63,21 +63,23 @@ img{
     width: 350px;
     height: 200px;
     border-radius: 20px;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 10px 20px;
     box-sizing: border-box;
-    color: #3d3d3d;
+    /* color: #3d3d3d; */
+    color: white;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
 }
 .todoWrap input{
     border: transparent;
-    border-bottom:1px solid black;
+    border-bottom:1px solid white;
     background-color: transparent;
     outline: none;
     width: 230px;
     margin: auto;
     text-align: center;
     padding: 5px 0;
+    color: white;
 }
 .todoWrap #todo-list{
     margin: 5px 70px;
